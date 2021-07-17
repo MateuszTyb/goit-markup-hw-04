@@ -40,6 +40,10 @@ img {
   display: block;
 }
 
+svg{
+  display: inline;
+}
+
 /* Usunięcie ozdobników list dla każdej list z klasą list */
 
 .list {
@@ -148,6 +152,7 @@ button {
 .contact-links a:focus {
   color: var(--secondary-color);
 }
+
 
 /*--Navigation--*/
 
@@ -310,6 +315,39 @@ button {
 
 /*--EMPLOYEE--*/
 
+/* CUSTOMERS */
+
+.customers{
+  background-color: #fff;
+}
+
+.customers-header{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  padding-top: 94px;
+}
+.customers .container {
+  display: flex;
+  justify-content: center;
+  padding: 94px 0px;
+  flex-wrap: wrap;
+}
+
+.customer-list .item{
+  display: inline-block;
+  border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+width: 170px;
+height: 92px;
+}
+
+/* CUSTOMERS */
+
 /*--FOOTER--*/
 
 .footer .container {
@@ -422,3 +460,9 @@ button {
   padding-bottom: 94px;
 }
 /*--Portfolio--*/
+
+/* ICONS */
+
+
+
+/* ICONS */
