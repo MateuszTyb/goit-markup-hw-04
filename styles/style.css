@@ -129,7 +129,7 @@ button {
   margin-right: 38px;
 }
 
-.navigation-links .link {
+.navigation-links a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -138,7 +138,7 @@ button {
   
 }
 
-.contact-links .link {
+.contact-links a {
   font-weight: 500;
   font-size: 14px;
   margin-right: 12px;
