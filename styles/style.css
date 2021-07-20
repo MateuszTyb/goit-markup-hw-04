@@ -40,10 +40,6 @@ img {
   display: block;
 }
 
-svg{
-  display: inline;
-}
-
 /* Usunięcie ozdobników list dla każdej list z klasą list */
 
 .list {
@@ -135,7 +131,6 @@ button {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  
 }
 
 .contact-links a {
@@ -145,19 +140,21 @@ button {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--additional-color);
+  fill:var(--additional-color);
   align-items: center;
 }
 
-.navigation-links a:hover,
-.navigation-links a:focus,
-.contact-links a:hover,
-.contact-links a:focus,
-.nav-icon:hover,
-.nav-icon:focus {
-  color: var(--secondary-color);
-}
 .nav-icon{
-margin-right:10px;}
+  margin-right:10px;
+  vertical-align: middle;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
+
 /*--Navigation--*/
 
 /*--HERO--*/
@@ -218,6 +215,14 @@ margin-right:10px;}
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: var(--main-color);
+}
+
+.main .icon{
+display: flex;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
 }
 
 .main p {
