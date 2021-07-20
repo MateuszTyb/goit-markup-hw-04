@@ -102,6 +102,8 @@ button {
 
 /*--Navigation--*/
 
+.nav-icon:hover {color: red}
+
 .header .container {
   display: flex;
   justify-content: space-between;
