@@ -122,7 +122,7 @@ button {
 }
 
 .contact-links .item:not(:last-child) {
-  margin-right: 38px;
+  margin-right: 28px;
 }
 
 .navigation-links a {
@@ -153,6 +153,14 @@ button {
 .link:focus {
   color: var(--secondary-color);
   fill: var(--secondary-color);
+}
+
+.navigation-links .current a{
+  color: var(--secondary-color);
+}
+
+#current{
+  color: #2196f3;
 }
 
 /*--Navigation--*/
@@ -320,7 +328,7 @@ button {
 .employee .item {
   margin: 50px 15px 0px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .employee-description {
@@ -328,7 +336,7 @@ button {
   text-align: center;
   background-color: var(--third-color);
   border: 0px;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px 4px;
 }
 
 .social {
@@ -397,8 +405,8 @@ button {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  fill: var(--additional-color);
-  color: var(--additional-color);
+  fill: #AFB1B8;
+  color:  #AFB1B8;
 }
 
 .customer-list :not(:last-child) {
@@ -571,6 +579,3 @@ button {
 }
 /*--Portfolio--*/
 
-/* ICONS */
-
-/* ICONS */
