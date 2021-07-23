@@ -5,6 +5,7 @@
   --secondary-color: #2196f3;
   --third-color: #ffffff;
   --additional-color: #757575;
+  --greystyle-color:#AFB1B8;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   color: #212121;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  max-width: 1600px;
 }
 
 address {
@@ -240,6 +241,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .main p {
@@ -274,11 +276,14 @@ button {
 .container .about-list {
   display: flex;
   text-align: center;
+  justify-content: center;
   padding-bottom: 94px;
+  flex-wrap: wrap;
 }
 
 .about-list .item {
-  margin: 0px 15px;
+  margin: 15px 15px;
+  
 }
 
 /*--MAIN--*/
@@ -290,6 +295,7 @@ button {
 .employee {
   background: #f5f4fa;
   padding-bottom: 94px;
+  
 }
 
 .employee-header {
@@ -323,6 +329,7 @@ button {
 .employee .container .list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .employee .item {
@@ -385,16 +392,20 @@ button {
   justify-content: center;
   padding: 94px 0px;
   flex-wrap: wrap;
+  align-items: center;
+
 }
 
 .customer-list {
-  margin-top: 50px;
+  margin: 50px auto 0px;
 }
 
 .customer-list .item {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: auto;
 }
 
 .customer-link {
@@ -405,8 +416,8 @@ button {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  fill: #AFB1B8;
-  color:  #AFB1B8;
+  fill: var(--greystyle-color);
+  color:  var(--greystyle-color);
 }
 
 .customer-list :not(:last-child) {
@@ -577,5 +588,7 @@ button {
   flex-wrap: wrap;
   padding-bottom: 94px;
 }
+.gallery .item:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 /*--Portfolio--*/
 
