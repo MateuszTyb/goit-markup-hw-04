@@ -147,17 +147,14 @@ button {
 
 .nav-icon {
   margin-right: 10px;
-  vertical-align: middle;
+  align-content: center;
+  vertical-align: bottom;
 }
 
 .link:hover,
 .link:focus {
   color: var(--secondary-color);
   fill: var(--secondary-color);
-}
-
-.navigation-links .current a{
-  color: var(--secondary-color);
 }
 
 #current{
