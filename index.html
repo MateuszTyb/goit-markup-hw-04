@@ -19,19 +19,16 @@
   <header class="header">
     <div class="container">
       <nav class="navigation">
-        <a class="logo-lighttheme" class="header-logo"
-          href="./index.html">Web<span>Studio</span></a>
+        <a class="logo-lighttheme" class="header-logo" href="./index.html">Web<span>Studio</span></a>
         <ul class="navigation-links list">
           <li class="item"><a id="current" class="link" href="./index.html">Agencja</a>
           </li>
-          <li class="item"><a class="link"
-              href="./portfolio.html">Portfolio</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Portfolio</a></li>
           <li class="item"><a class="link" href="#Kontakt">Kontakt</a></li>
         </ul>
       </nav>
       <ul class="contact-links list">
-        <li class="item"><a class="link" href="mailto:info@devstudio.com"><svg class="nav-icon" width=20
-              height=16>
+        <li class="item"><a class="link" href="mailto:info@devstudio.com"><svg class="nav-icon" width=20 height=16>
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg><span>info@devstudio.com</span></a></li>
         <li class="item"><a class="link" href="phone:+48111111111"><svg class="nav-icon" width=20 height=16>
@@ -44,9 +41,14 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="hero-btn" type="modal">Zamów usługe</button>
-      </div>
+        <button class="hero-btn" type="button" data-modal-open>Zamów usługe</button>
     </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal"><button class="modal-close" data-modal-close><svg class="close" width="17" heigth="17">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg></button></div>
+    </div>
+    </div>
     <section class="main">
       <div class="container">
         <ul class="main-content list">
@@ -100,14 +102,17 @@
           <li class="item">
             <img src="./images/about/about1.jpg" alt="hands of a person working on a tablet with a detachable keyboard"
               height="294" width="370" />
+            <p class="subtitle">Aplikacje komputerowe</p>
           </li>
           <li class="item">
             <img src="./images/about/about2.jpg" alt="phone held in the hands of the person working at the computer"
               height="294" width="370" />
+            <p class="subtitle">Aplikacje mobilne</p>
           </li>
           <li class="item">
             <img src="./images/about/about3.jpg" alt="tablet with color palette held in women's hands" height="294"
               width="370" />
+            <p class="subtitle">Rozwiązania graficzne</p>
           </li>
         </ul>
       </div>
@@ -271,6 +276,7 @@
       </div>
     </div>
   </footer>
+  <script src="./modal.js"></script>
 </body>
 
 </html>
